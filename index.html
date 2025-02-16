@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>STOIC</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="/" class="nav-logo">STOIC</a>
+            <div class="nav-links">
+                <a href="/" class="active">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/products.html">Products</a>
+                <a href="/stories.html">Stories</a>
+                <a href="/cart.html" class="cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="quote-container">
+                    <blockquote id="dynamic-quote">
+                        "Success is not final, failure is not fatal: it is the courage to continue that counts."
+                    </blockquote>
+                    <cite id="quote-author">- Winston Churchill</cite>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-stories">
+            <div class="story-container">
+                <div class="story-box">
+                    <div class="story-image">
+                        <img src="https://placehold.co/600x800/png" alt="Success Story 1">
+                    </div>
+                    <div class="story-text">
+                        <h3>Transformative Journey</h3>
+                        <p>Discover how our resources helped transform an aspiring entrepreneur into a successful business owner.</p>
+                    </div>
+                </div>
+                <div class="story-box reverse">
+                    <div class="story-text">
+                        <h3>Path to Excellence</h3>
+                        <p>Learn about the journey of personal growth and professional development through our premium resources.</p>
+                    </div>
+                    <div class="story-image">
+                        <img src="https://placehold.co/600x800/png" alt="Success Story 2">
+                    </div>
+                </div>
+                <div class="story-box">
+                    <div class="story-image">
+                        <img src="https://placehold.co/600x800/png" alt="Success Story 3">
+                    </div>
+                    <div class="story-text">
+                        <h3>Breaking Barriers</h3>
+                        <p>See how determination and the right resources can help overcome any obstacle in your path to success.</p>
+                    </div>
+                </div>
+                <div class="story-box reverse">
+                    <div class="story-text">
+                        <h3>Innovation Journey</h3>
+                        <p>Explore how creative thinking and strategic planning led to breakthrough success in the digital age.</p>
+                    </div>
+                    <div class="story-image">
+                        <img src="https://placehold.co/600x800/png" alt="Success Story 4">
+                    </div>
+                </div>
+                <a href="/stories.html" class="more-stories">More Stories</a>
+            </div>
+        </section>
+
+        <section class="products-showcase">
+            <h2>Featured Products</h2>
+            <div class="products-carousel">
+                <button class="carousel-button prev">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                </button>
+                <button class="carousel-button next">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
+                <div class="carousel-container">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://placehold.co/600x600/png" alt="Product 1">
+                            <div class="product-overlay">
+                                <button class="btn-access">Access</button>
+                                <button class="btn-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Productivity Mastery</h3>
+                            <p>Master your time and achieve more</p>
+                            <span class="price">$29.99</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://placehold.co/600x600/png" alt="Product 2">
+                            <div class="product-overlay">
+                                <button class="btn-access">Access</button>
+                                <button class="btn-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Success Mindset</h3>
+                            <p>Transform your thinking patterns</p>
+                            <span class="price">$24.99</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://placehold.co/600x600/png" alt="Product 3">
+                            <div class="product-overlay">
+                                <button class="btn-access">Access</button>
+                                <button class="btn-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Leadership Skills</h3>
+                            <p>Lead with confidence and vision</p>
+                            <span class="price">$34.99</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://placehold.co/600x600/png" alt="Product 4">
+                            <div class="product-overlay">
+                                <button class="btn-access">Access</button>
+                                <button class="btn-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Business Strategy</h3>
+                            <p>Plan your path to success</p>
+                            <span class="price">$39.99</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://placehold.co/600x600/png" alt="Product 5">
+                            <div class="product-overlay">
+                                <button class="btn-access">Access</button>
+                                <button class="btn-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Digital Marketing</h3>
+                            <p>Master online promotion</p>
+                            <span class="price">$29.99</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://placehold.co/600x600/png" alt="Product 6">
+                            <div class="product-overlay">
+                                <button class="btn-access">Access</button>
+                                <button class="btn-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Personal Finance</h3>
+                            <p>Build wealth strategically</p>
+                            <span class="price">$27.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscription">
+            <h2>Choose Your Plan</h2>
+            <div class="plans-container">
+                <div class="plan-box">
+                    <h3>Free</h3>
+                    <ul>
+                        <li>Access to basic resources</li>
+                        <li>Weekly newsletter</li>
+                        <li>Community access</li>
+                    </ul>
+                    <button class="plan-button" data-plan="free">Access</button>
+                </div>
+                <div class="plan-box featured">
+                    <h3>Standard</h3>
+                    <ul>
+                        <li>All Free features</li>
+                        <li>Premium resources</li>
+                        <li>Monthly webinars</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <button class="plan-button" data-plan="standard">Access</button>
+                </div>
+                <div class="plan-box">
+                    <h3>Premium</h3>
+                    <ul>
+                        <li>All Standard features</li>
+                        <li>1-on-1 mentoring</li>
+                        <li>Exclusive workshops</li>
+                        <li>Custom resources</li>
+                    </ul>
+                    <button class="plan-button" data-plan="premium">Access</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>We're here to help you on your journey to success. Reach out to us with any questions or concerns.</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" required placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>STOIC</h3>
+                <p>Elevating minds through premium digital content</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="/about.html">About</a>
+                <a href="/products.html">Products</a>
+                <a href="/stories.html">Stories</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: akshatb142@gmail.com</p>
+                <p>Phone: +91 9671567686</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 STOIC. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

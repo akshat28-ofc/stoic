@@ -1,0 +1,13 @@
+{
+  "name": "digital-library",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "servor --reload",
+    "start": "servor --reload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "servor": "^4.0.2"
+  }
+}

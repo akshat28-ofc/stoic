@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Our Products</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="products.css" />
+    <script type="module" src="script.js"></script>
+    <script type="module" src="products.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="/" class="nav-logo">STOIC</a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/products.html" class="active">Products</a>
+                <a href="/stories.html">Stories</a>
+                <a href="/cart.html" class="cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="products-hero">
+            <h1>Discover Our Premium Collection</h1>
+            <p>Carefully curated digital resources for your growth journey</p>
+        </section>
+
+        <section class="categories-section">
+            <div class="categories-scroll">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="productivity">Productivity</button>
+                <button class="category-btn" data-category="startup">Startup</button>
+                <button class="category-btn" data-category="success">Success</button>
+                <button class="category-btn" data-category="mindset">Mindset</button>
+                <button class="category-btn" data-category="leadership">Leadership</button>
+            </div>
+        </section>
+
+        <section class="products-grid">
+            <div class="product-card" data-category="productivity">
+                <div class="product-image">
+                    <img src="https://placehold.co/600x600/png" alt="Product 1">
+                    <div class="product-overlay">
+                        <button class="btn-access">Access</button>
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Productivity Mastery</h3>
+                    <p>Master your time and achieve more</p>
+                    <span class="price">$29.99</span>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="startup">
+                <div class="product-image">
+                    <img src="https://placehold.co/600x600/png" alt="Product 2">
+                    <div class="product-overlay">
+                        <button class="btn-access">Access</button>
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Startup Guide 2025</h3>
+                    <p>Launch your dream business</p>
+                    <span class="price">$39.99</span>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="success">
+                <div class="product-image">
+                    <img src="https://placehold.co/600x600/png" alt="Product 3">
+                    <div class="product-overlay">
+                        <button class="btn-access">Access</button>
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Success Mindset</h3>
+                    <p>Transform your thinking patterns</p>
+                    <span class="price">$24.99</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>STOIC</h3>
+                <p>Elevating minds through premium digital content</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="/">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/stories.html">Stories</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: contact@digitallibrary.com</p>
+                <p>Phone: +91 9034663307</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 STOIC. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
